@@ -392,3 +392,53 @@ footer p{
     text-align: center;
     color: #fefbfb;
 }
+
+
+@media (max-width: 768px) {
+    .logo img {
+      width: 180px;
+      left: 20px;
+      top: 80px;
+    }
+    .searchArea {
+      right: 20px;
+      width: 140px;
+    }
+    .section1button h1,h2{
+        line-height: 45px;
+        font-size: 3rem;
+        margin-right: 30px;
+    }
+    .section1button h2{
+        letter-spacing:5px ;
+    }
+    .section1button{
+        margin-top: -100px;
+    }
+    .section1 {
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+    .section1 img{
+        width: 400px;
+        margin-top:30px;
+    }
+    .prodactbox {
+      width: 100%;
+    }
+    .about {
+      flex-direction: column;
+      text-align: center;
+    }
+    .aboutbox {
+      width: 80%;
+    }
+    .notificationinput {
+      width: 80%;
+    }
+.notification h1{
+    font-size: 20px;
+}
+
+  }
